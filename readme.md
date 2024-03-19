@@ -1,6 +1,6 @@
 # Movie Recommender System using Cosine Similarity and Count Vectorizer
 
-![plate](./example.png)
+![Image Alt Text](image.png)
 
 This Movie Recommender System is built using Python and utilizes cosine similarity along with Count Vectorizer for recommending movies based on their similarity to the user's preferences.
 
