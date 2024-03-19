@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Movie Recommender System</h1>
+        <p>Get personalized movie recommendations based on your preferences!</p>
+    </header>
+    <main>
+        <section id="preferences">
+            <h2>Enter Your Preferences</h2>
+            <label for="genre">Select Genre:</label>
+            <select id="genre">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="sci-fi">Science Fiction</option>
+                <!-- Add more genres as needed -->
+            </select>
+            <label for="rating">Select Minimum Rating:</label>
+            <input type="range" id="rating" min="1" max="10" value="5">
+            <output for="rating" id="ratingValue">5</output>
+            <button onclick="getRecommendations()">Get Recommendations</button>
+        </section>
+        <section id="recommendations" class="hidden">
+            <h2>Recommended Movies</h2>
+            <ul id="movieList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
