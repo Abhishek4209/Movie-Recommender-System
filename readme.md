@@ -25,7 +25,7 @@ The system works by analyzing the textual data associated with each movie, such 
 
 ## Usage
 
-1. **Install Dependencies**: Make sure you have Python installed on your system along with the necessary libraries mentioned in the `requirements.txt` file.
+1. **Install Dependencies**: Make sure you have Python installed on your system along with the necessary libraries mentioned in the `requirement.txt` file.
    
 2. **Prepare Data**: Provide the system with movie data in a suitable format. The data should include textual information such as movie title, genre, and synopsis.
 
